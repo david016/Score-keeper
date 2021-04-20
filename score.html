@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score keeper</title>
+    <link rel="stylesheet" href="score.css">
+</head>
+<body>
+    <div id="container">
+
+        <img src="https://image.freepik.com/free-photo/red-ping-pong-racket-dark-background-sports-equipment_93675-80849.jpg" alt="ping pong racket">
+        <section>
+            <h3>
+                <b>Ping Pong Score Keeper</b>
+            </h3>
+            <hr>
+                <p id="score">
+                    <span id="displayP1">0</span> to <span id= displayP2>0</span>
+                </p>
+                <p>
+                    Use the buttons below to keep score.
+                </p>
+                <p>
+                    <b> Playing To </b>
+                    <select name="maxScore" id="maxScore">
+                        <option value=""></option>
+                        <option value="3">3</option>
+                        <option value="5">5</option>
+                        <option value="7">7</option>
+                        <option value="9">9</option>
+                    </select>
+                </p>    
+                    <button id="btn1">+1 First player</button>
+                    <button id="btn2">+1 Second player</button>
+                    <button id="btnReset">Reset</button>
+        </section>
+
+
+    </div>
+
+    <script src="score.js"></script>
+</body>
+</html>
